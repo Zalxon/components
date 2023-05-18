@@ -166,8 +166,8 @@ const Footer = () => {
         >
           <Monogram
             sx={{
-              width: 80,
-              height: 80,
+              width: 50,
+              height: 50,
               mt: [0, '-10px', 4, 5],
               mb: ['-12px'],
             }}

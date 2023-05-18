@@ -7,7 +7,7 @@ const Logo = ({ ...props }) => {
       as='svg'
       fill='currentColor'
       stroke='none'
-      height="110" 
+      height="40" 
       viewBox="0 0 500 100"
       {...props}
     >

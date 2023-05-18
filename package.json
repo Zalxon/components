@@ -1,6 +1,6 @@
 {
   "name": "@zalxon/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "shared components for our websites",
   "main": "dst/index.js",
   "module": "dst/index.esm.js",
