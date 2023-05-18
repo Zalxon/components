@@ -1,0 +1,52 @@
+{
+  "name": "@zalxon/components",
+  "version": "1.0.0",
+  "description": "shared components for our websites",
+  "main": "dst/index.js",
+  "module": "dst/index.esm.js",
+  "scripts": {
+    "build": "rimraf dst && microbundle src/index.js -o dst/index.js --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
+    "watch": "microbundle watch src/index.js -o dst/index.js --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
+    "format": "prettier --write 'src/**/*.js' '*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalxon/components.git"
+  },
+  "keywords": [
+    "zalxon",
+    "healtcare",
+    "carbon",
+    "theme-ui"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zalxon/components/issues"
+  },
+  "files": [
+    "dst",
+    "fonts.css",
+    "globals.css"
+  ],
+  "homepage": "https://github.com/zalxon/components#readme",
+  "dependencies": {
+    "@zalxon/emoji": "^1.0.1",
+    "@zalxon/icons": "^1.0.0",
+    "@theme-ui/color": ">=0.15.0"
+  },
+  "prettier": "@zalxon/prettier",
+  "peerDependencies": {
+    "@emotion/react": ">=11.1.5",
+    "next": ">=12",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "theme-ui": ">=0.15.0"
+  },
+  "devDependencies": {
+    "@zalxon/prettier": "^1.0.1",
+    "microbundle": "^0.13.0",
+    "prettier": "^2.2.1",
+    "rimraf": "3.0.2"
+  }
+}
