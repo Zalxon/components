@@ -66,7 +66,7 @@ const HoverArrow = () => {
 
 const Nav = ({ link, mode, nav, first, setExpanded }) => {
   const { url, display } = link
-  const href = mode === 'remote' ? 'https://zalxon.com/' + url : '/' + url
+  const href = url.includes('https') ? url : mode === 'remote' ? 'https://zalxon.com/' + url : '/' + url
 
   if (mode === 'homepage' || (mode === 'local' && nav === url)) {
     return (
