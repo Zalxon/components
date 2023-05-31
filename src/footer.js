@@ -86,7 +86,7 @@ const Footer = () => {
                 color: 'secondary',
               }}
             >
-              Zalxon is a registered nonprofit.
+              Zalxon is a cutting-edge project aimed at improving the health and well-being of individuals by leveraging the power of artificial intelligence and data analysis.
             </Box>
           </Box>
         </Column>

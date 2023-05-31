@@ -39,8 +39,8 @@ const sx = {
 
 const links = [
   { url: 'about', display: 'About' },
-  { url: 'research', display: 'Research' },
-  { url: 'blog', display: 'Blog' },
+  { url: 'https://research.zalxon.com/research', display: 'Research' },
+  { url: 'https://blog.zalxon.com/blog', display: 'Blog' },
   { url: 'press', display: 'Press' },
 ]
 

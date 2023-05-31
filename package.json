@@ -1,6 +1,6 @@
 {
   "name": "@zalxon/components",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "shared components for our websites",
   "main": "dst/index.js",
   "module": "dst/index.esm.js",
@@ -16,10 +16,10 @@
   "keywords": [
     "zalxon",
     "healtcare",
-    "carbon",
+    "healtcare",
     "theme-ui"
   ],
-  "author": "freeman-lab",
+  "author": "halildogan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zalxon/components/issues"
